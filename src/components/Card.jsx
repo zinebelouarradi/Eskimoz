@@ -1,5 +1,5 @@
 import React from "react";
-import { CardType } from "./types";
+import { CardType } from "../utils/types";
 
 const Card = ({ card }) => {
   return (

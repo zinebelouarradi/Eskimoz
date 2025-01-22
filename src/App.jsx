@@ -3,7 +3,7 @@ import "./App.css";
 import CardList from "./components/CardList";
 import FilterDropdown from "./components/FilterDropdown";
 import SearchBar from "./components/SearchBar";
-import mockedData from "./mockData.json";
+import mockedData from "./utils/mockData.json";
 
 function App() {
   const [job, setJob] = useState("");

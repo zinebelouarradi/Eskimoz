@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import Card from "./Card";
-import { CardType } from "./types";
+import { CardType } from "../utils/types";
 import noResults from "../assets/noResulsFound.png";
 
 const CardList = ({ cards }) => {
